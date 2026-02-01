@@ -27,6 +27,9 @@ Thumbs.db
 .env.local
 .env.*.local
 
+# 本地文档（不推送到远程）
+md/
+
 # 其他
 *.jar
 *.war
