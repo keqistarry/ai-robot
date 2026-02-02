@@ -6,11 +6,8 @@ import com.quanxiaoha.ai.robot.utils.PageResponse;
 import com.quanxiaoha.ai.robot.utils.Response;
 
 /**
- * @author: 犬小哈
- * @url: www.quanxiaoha.com
- * @date: 2023-09-15 14:03
  * @description: AI 客服
- **/
+ */
 public interface CustomerService {
 
 //    /**

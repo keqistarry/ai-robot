@@ -8,11 +8,8 @@ import lombok.NoArgsConstructor;
 
 
 /**
- * @author: 犬小哈
- * @url: www.quanxiaoha.com
- * @date: 2023-09-15 14:07
  * @description: AI 智能客服聊天
- **/
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

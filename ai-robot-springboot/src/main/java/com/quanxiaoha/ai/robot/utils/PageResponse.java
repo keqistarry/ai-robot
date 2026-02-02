@@ -7,11 +7,8 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author: 犬小哈
- * @url: www.quanxiaoha.com
- * @date: 2023-08-11 19:50
  * @description: 分页响应参数工具类
- **/
+ */
 @Data
 public class PageResponse<T> extends Response<List<T>> {
 

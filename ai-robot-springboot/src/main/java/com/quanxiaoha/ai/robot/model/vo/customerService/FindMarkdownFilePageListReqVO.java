@@ -10,11 +10,8 @@ import java.time.LocalDate;
 
 
 /**
- * @author: 犬小哈
- * @url: www.quanxiaoha.com
- * @date: 2023-09-15 14:07
  * @description: 查询 Markdown 问答文件列表
- **/
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

@@ -9,11 +9,8 @@ import lombok.NoArgsConstructor;
 
 
 /**
- * @author: 犬小哈
- * @url: www.quanxiaoha.com
- * @date: 2023-09-15 14:07
  * @description: 对话重命名
- **/
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
