@@ -1,9 +1,11 @@
-Technology Stack: Spring Boot 3.x, JDK 21, Spring AI, DeepSeek, MyBatis Plus, PostgreSQL, RAG, SSE, SearXNG, OkHttp3, Jsoup, Docker
-Project Description: An intelligent dialogue platform built on the Spring AI framework, featuring two sets of AI applications including a general-purpose chatbot and an intelligent customer service system (based on a private knowledge base).
-Job responsibilities:
-Integrate PostgreSQL as the session and vector repository to enable chat memory and long-context management, supporting conversation history pagination and RAG vector retrieval.
-Customize the Advisor component to automatically inject historical dialogues and persist messages in the model invocation chain, fully collect streaming responses and store them in the database, supporting analysis and auditing.
-After deploying the SearXNG search engine, the backend utilizes OkHttp3 + CompletableFuture for concurrent requests, combined with Jsoup for cleaning the main text. This effectively controls context length and token consumption, enabling real-time internet searches.
-Custom RAG Advisor, based on pgvector, retrieves private knowledge bases and dynamically constructs enhanced prompts, delivering intelligent customer service capabilities with "Q&A based on specified corpora.".
-Responsible for the writing and optimization of prompts for multi-scenario applications such as internet-based search and intelligent customer service, enhancing the accuracy, reliability, and output consistency of large models through role definition, rule constraints, and context management.
-Build the backend service based on Spring Boot 3.x, covering conversation management, message pagination, knowledge base Markdown chunked upload and merging; decouple the post-upload file parsing and vectorization process via Spring Events to enhance maintainability and testability.
+- Technology Stack:
+  - Spring Boot 3.x, JDK 21, Spring AI, DeepSeek, MyBatis Plus, PostgreSQL, RAG, SSE, SearXNG, OkHttp3, Jsoup, Docker
+- Project Description:
+    - An intelligent dialogue platform built on the Spring AI framework, featuring two sets of AI applications including a general-purpose chatbot and an intelligent customer service system (based on a private knowledge base).
+- Job responsibilities:
+  - Integrate PostgreSQL as the session and vector repository to enable chat memory and long-context management, supporting conversation history pagination and RAG vector retrieval.
+  - Customize the Advisor component to automatically inject historical dialogues and persist messages in the model invocation chain, fully collect streaming responses and store them in the database, supporting analysis and auditing.
+  - After deploying the SearXNG search engine, the backend utilizes OkHttp3 + CompletableFuture for concurrent requests, combined with Jsoup for cleaning the main text. This effectively controls context length and token consumption, enabling real-time internet searches.
+  - Custom RAG Advisor, based on pgvector, retrieves private knowledge bases and dynamically constructs enhanced prompts, delivering intelligent customer service capabilities with "Q&A based on specified corpora.".
+  - Responsible for the writing and optimization of prompts for multi-scenario applications such as internet-based search and intelligent customer service, enhancing the accuracy, reliability, and output consistency of large models through role definition, rule constraints, and context management.
+  - Build the backend service based on Spring Boot 3.x, covering conversation management, message pagination, knowledge base Markdown chunked upload and merging; decouple the post-upload file parsing and vectorization process via Spring Events to enhance maintainability and testability.
